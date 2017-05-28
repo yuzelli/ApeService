@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>ApeHire</display-name>
+	<!-- <welcome-file-list> <welcome-file>index.html</welcome-file> <welcome-file>index.htm</welcome-file> 
+		<welcome-file>index.jsp</welcome-file> <welcome-file>default.html</welcome-file> 
+		<welcome-file>default.htm</welcome-file> <welcome-file>default.jsp</welcome-file> 
+		</welcome-file-list> -->
+
+
+
+	<servlet>
+		<description>This i21s the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SelAllJobAction</servlet-name>
+		<servlet-class>contriler.SelAllJobAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>addJobAction</servlet-name>
+		<servlet-class>contriler.addJobAction</servlet-class>
+	</servlet>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DoJobUpdate</servlet-name>
+		<servlet-class>contriler.DoJobUpdate</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DelJobAction</servlet-name>
+		<servlet-class>contriler.DelJobAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SelSomeJobs</servlet-name>
+		<servlet-class>contriler.SelSomeJobs</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>companyServlet</servlet-name>
+		<servlet-class>contriler.CompanyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>articleServlet</servlet-name>
+		<servlet-class>contriler.ArticleServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>userInfoServlet</servlet-name>
+		<servlet-class>contriler.UserInfoServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>companyPicServlet</servlet-name>
+		<servlet-class>contriler.CompanyPicServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>articleCollectionServlet</servlet-name>
+		<servlet-class>contriler.ArticleCollectionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>jobCollectionServlet</servlet-name>
+		<servlet-class>contriler.JobCollectionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DoLoadAction</servlet-name>
+		<servlet-class>contriler.DoLoadAction</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>jobServlet</servlet-name>
+		<servlet-class>contriler.JobServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>companyResumeServlet</servlet-name>
+		<servlet-class>contriler.CompanyResumeServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addAtricle</servlet-name>
+    <servlet-class>servlet.addAtricle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelAllArticle</servlet-name>
+    <servlet-class>servlet.SelAllArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelArticle</servlet-name>
+    <servlet-class>servlet.DelArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelSomeArticle</servlet-name>
+    <servlet-class>servlet.SelSomeArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCompanys</servlet-name>
+    <servlet-class>servlet.addCompanys</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addUser</servlet-name>
+    <servlet-class>servlet.addUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addUserInfo</servlet-name>
+    <servlet-class>servlet.addUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delCompany</servlet-name>
+    <servlet-class>servlet.delCompany</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selSomeCompany</servlet-name>
+    <servlet-class>servlet.selSomeCompany</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selSomeUser</servlet-name>
+    <servlet-class>servlet.selSomeUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delUserInfo</servlet-name>
+    <servlet-class>servlet.delUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateCompany</servlet-name>
+    <servlet-class>servlet.updateCompany</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateUser</servlet-name>
+    <servlet-class>servlet.updateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateArticle</servlet-name>
+    <servlet-class>servlet.updateArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addArtiCollection</servlet-name>
+    <servlet-class>servlet.addArtiCollection</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCompanyResume</servlet-name>
+    <servlet-class>servlet.addCompanyResume</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCompResu</servlet-name>
+    <servlet-class>servlet.addCompResu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addArtiColl</servlet-name>
+    <servlet-class>servlet.addArtiColl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addJobCollec</servlet-name>
+    <servlet-class>servlet.addJobCollec</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCompPictu</servlet-name>
+    <servlet-class>servlet.addCompPictu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delCompPictu</servlet-name>
+    <servlet-class>servlet.delCompPictu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delArtiColl</servlet-name>
+    <servlet-class>servlet.delArtiColl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delCompResu</servlet-name>
+    <servlet-class>servlet.delCompResu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delJobColl</servlet-name>
+    <servlet-class>servlet.delJobColl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selSomArtiColl</servlet-name>
+    <servlet-class>servlet.selSomArtiColl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selSomeJobColl</servlet-name>
+    <servlet-class>servlet.selSomeJobColl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selSomeCompPictu</servlet-name>
+    <servlet-class>servlet.selSomeCompPictu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selSomeCompResu</servlet-name>
+    <servlet-class>servlet.selSomeCompResu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateArtiColl</servlet-name>
+    <servlet-class>servlet.updateArtiColl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateCompPictu</servlet-name>
+    <servlet-class>servlet.updateCompPictu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updateJobColl</servlet-name>
+    <servlet-class>servlet.updateJobColl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>servlet.login</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>companyResumeServlet</servlet-name>
+		<url-pattern>/companyResumeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>jobServlet</servlet-name>
+		<url-pattern>/jobServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>jobCollectionServlet</servlet-name>
+		<url-pattern>/jobCollectionServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>articleCollectionServlet</servlet-name>
+		<url-pattern>/articleCollectionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>companyPicServlet</servlet-name>
+		<url-pattern>/companyPicServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>userInfoServlet</servlet-name>
+		<url-pattern>/userInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>articleServlet</servlet-name>
+		<url-pattern>/articleServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>companyServlet</servlet-name>
+		<url-pattern>/companyServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>SelAllJobAction</servlet-name>
+		<url-pattern>/SelAllJobAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>addJobAction</servlet-name>
+		<url-pattern>/addJobAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DoJobUpdate</servlet-name>
+		<url-pattern>/DoJobUpdate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelJobAction</servlet-name>
+		<url-pattern>/DelJobAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SelSomeJobs</servlet-name>
+		<url-pattern>/SelSomeJobs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DoLoadAction</servlet-name>
+		<url-pattern>/DoLoadAction</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addAtricle</servlet-name>
+    <url-pattern>/addAtricle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelAllArticle</servlet-name>
+    <url-pattern>/SelAllArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelArticle</servlet-name>
+    <url-pattern>/DelArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelSomeArticle</servlet-name>
+    <url-pattern>/SelSomeArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCompanys</servlet-name>
+    <url-pattern>/addCompanys</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addUserInfo</servlet-name>
+    <url-pattern>/addUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delCompany</servlet-name>
+    <url-pattern>/delCompany</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selSomeCompany</servlet-name>
+    <url-pattern>/selSomeCompany</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selSomeUser</servlet-name>
+    <url-pattern>/selSomeUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delUserInfo</servlet-name>
+    <url-pattern>/delUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateCompany</servlet-name>
+    <url-pattern>/updateCompany</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateUser</servlet-name>
+    <url-pattern>/updateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateArticle</servlet-name>
+    <url-pattern>/updateArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addArtiCollection</servlet-name>
+    <url-pattern>/addArtiCollection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCompanyResume</servlet-name>
+    <url-pattern>//addCompanyResume</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCompResu</servlet-name>
+    <url-pattern>/addCompResu</url-pattern>
+  </servlet-mapping>
+   
+  <servlet-mapping>
+    <servlet-name>addJobCollec</servlet-name>
+    <url-pattern>/addJobCollec</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCompPictu</servlet-name>
+    <url-pattern>/addCompPictu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delCompPictu</servlet-name>
+    <url-pattern>/delCompPictu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delArtiColl</servlet-name>
+    <url-pattern>/delArtiColl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delCompResu</servlet-name>
+    <url-pattern>/delCompResu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delJobColl</servlet-name>
+    <url-pattern>/delJobColl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selSomArtiColl</servlet-name>
+    <url-pattern>/selSomArtiColl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selSomeJobColl</servlet-name>
+    <url-pattern>/selSomeJobColl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selSomeCompPictu</servlet-name>
+    <url-pattern>/selSomeCompPictu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selSomeCompResu</servlet-name>
+    <url-pattern>/selSomeCompResu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateArtiColl</servlet-name>
+    <url-pattern>/updateArtiColl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateCompPictu</servlet-name>
+    <url-pattern>/updateCompPictu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateJobColl</servlet-name>
+    <url-pattern>/updateJobColl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+
+	<welcome-file-list>
+		<welcome-file>SelAllJobAction</welcome-file>
+
+	</welcome-file-list>
+</web-app>
